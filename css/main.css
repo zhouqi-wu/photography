@@ -130,8 +130,8 @@
 
 :root {
   /* Fonts */
-  --font-primary: "Raleway", "Noto Serif TC",sans-serif;
-  --font-secondary: "Cinzel", "Noto Sans TC",serif;
+  --font-primary:  "Raleway","Noto Sans TC",serif;
+  --font-secondary: "Cinzel","Noto Serif TC",sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
@@ -6681,6 +6681,13 @@ a img.aligncenter {
  * ======================================================================!*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .xl {
   font-family: var(--font-secondary);
+}
+p {
+  font-family: var(--font-primary);
+}
+.font-serif {
+  font-family: var(--font-secondary);
+  font-weight: 400;
 }
 
 h1, h2, h3 {
